@@ -103,24 +103,25 @@
   <meta name="keywords" content="Hexo, NexT" />
 
 
-<meta name="description" content="PHP Java Emcas">
+<meta name="description" content="mybatis 返回值mybatis封装的insert delete update方法返回值默认为影响的行数，比如判断是否insert, delete or update成功，判断返回值是否大于0 mysql java连接注意事项 mysql tinyint  由于mysql中并没有bool类型，java中的bool类型都会被转化为tinyint, 默认情况下mysql表里的tinyint字段都会">
 <meta name="keywords" content="Hexo, NexT">
-<meta property="og:type" content="website">
-<meta property="og:title" content="书单">
-<meta property="og:url" content="http://localhost:11215/books/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mybatis misc">
+<meta property="og:url" content="http://localhost:11215/2018/03/21/mybatis-return-val/index.html">
 <meta property="og:site_name" content="上善若水">
-<meta property="og:description" content="PHP Java Emcas">
+<meta property="og:description" content="mybatis 返回值mybatis封装的insert delete update方法返回值默认为影响的行数，比如判断是否insert, delete or update成功，判断返回值是否大于0 mysql java连接注意事项 mysql tinyint  由于mysql中并没有bool类型，java中的bool类型都会被转化为tinyint, 默认情况下mysql表里的tinyint字段都会">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-03-29T16:34:07.742Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="书单">
-<meta name="twitter:description" content="PHP Java Emcas">
+<meta name="twitter:title" content="mybatis misc">
+<meta name="twitter:description" content="mybatis 返回值mybatis封装的insert delete update方法返回值默认为影响的行数，比如判断是否insert, delete or update成功，判断返回值是否大于0 mysql java连接注意事项 mysql tinyint  由于mysql中并没有bool类型，java中的bool类型都会被转化为tinyint, 默认情况下mysql表里的tinyint字段都会">
 
 
 
 
 
 
-  <link rel="canonical" href="http://localhost:11215/books/"/>
+  <link rel="canonical" href="http://localhost:11215/2018/03/21/mybatis-return-val/"/>
 
 
 
@@ -129,7 +130,7 @@
     sidebar: "",
   };
 </script>
-  <title>书单 | 上善若水</title>
+  <title>mybatis misc | 上善若水</title>
   
 
 
@@ -268,48 +269,181 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://localhost:11215/2018/03/21/mybatis-return-val/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Charles Cliff">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="上善若水">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">书单</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">mybatis misc</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-21T15:45:09+00:00">2018-03-21</time>
+            
+
+            
+            
+
+            
+          </span>
+
           
-        
-      </div>
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/03/21/mybatis-return-val/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/03/21/mybatis-return-val/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h3><span id="mybatis-返回值">mybatis 返回值</span></h3><p>mybatis封装的insert delete update方法返回值默认为影响的行数，比如判断是否insert, delete or update成功，判断返回值是否大于0</p>
+<h3><span id="mysql-java连接注意事项">mysql java连接注意事项</span></h3><ol>
+<li><p>mysql tinyint</p>
+<p> 由于mysql中并没有bool类型，java中的bool类型都会被转化为tinyint, 默认情况下mysql表里的tinyint字段都会被转化为java的boolean类型，如果不想自动转为boolean， 需要在连接的url里添加配置<code>tinyInt1isBit=false</code></p>
+</li>
+</ol>
+
       
     </div>
+
     
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/03/08/markdown-cheatsheet/" rel="next" title="markdown-cheatsheet">
+                <i class="fa fa-chevron-left"></i> markdown-cheatsheet
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/28/springboot-maven-plugin/" rel="prev" title="springboot-maven-plugin ">
+                springboot-maven-plugin  <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
 
-    
-    
-    
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -330,8 +464,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -408,6 +551,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">mybatis 返回值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">mysql java连接注意事项</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -553,6 +712,23 @@
     <script id="dsq-count-scr" src="https://charlescliff.disqus.com/count.js" async></script>
   
 
+  
+    <script type="text/javascript">
+      var disqus_config = function () {
+        this.page.url = 'http://localhost:11215/2018/03/21/mybatis-return-val/';
+        this.page.identifier = '2018/03/21/mybatis-return-val/';
+        this.page.title = 'mybatis misc';
+      };
+      function loadComments () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://charlescliff.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      }
+      
+        loadComments();
+      
+    </script>
   
 
 
