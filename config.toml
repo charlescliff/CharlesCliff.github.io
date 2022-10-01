@@ -1,0 +1,6 @@
+baseURL = 'https://charlescliff.github.io'
+languageCode = 'en-us'
+title = 'Happy Hacking'
+theme = 'beautifulhugo'
+Copyright = '2022 @CharlesCliff'
+
