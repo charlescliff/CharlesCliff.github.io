@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>react on Happy Hacking</title>
+    <link>https://charlescliff.github.io/categories/react/</link>
+    <description>Recent content in react on Happy Hacking</description>
+    <image>
+      <url>https://charlescliff.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://charlescliff.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 Oct 2022 22:39:33 +0800</lastBuildDate><atom:link href="https://charlescliff.github.io/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>React Ref</title>
+      <link>https://charlescliff.github.io/post/react-ref-101/</link>
+      <pubDate>Sat, 01 Oct 2022 22:39:33 +0800</pubDate>
+      
+      <guid>https://charlescliff.github.io/post/react-ref-101/</guid>
+      <description>React Ref is a relative high level skill in React. It&amp;rsquo;s easy to pass data from parent to child through props, but sometimes child may want to expose something to be used in parent, and this requirement is more common in designing a common component which may want to expose data/functionality to parent.
+Today we are going to talk about the common usage of ref in react, including the basic usage of accessing DOM elements, exposing function/data to parent, and data reference to pass around.</description>
+    </item>
+    
+  </channel>
+</rss>

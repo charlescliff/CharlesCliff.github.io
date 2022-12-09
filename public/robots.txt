@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://charlescliff.github.io/sitemap.xml

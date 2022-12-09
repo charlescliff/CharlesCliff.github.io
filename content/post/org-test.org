@@ -1,0 +1,10 @@
+---
+title: "Org Test"
+date: 2022-10-03T13:45:17+08:00
+draft: true
+---
+* Org mode
+
+** head 2
+
+

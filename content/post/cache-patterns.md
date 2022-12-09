@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Cache Patterns"
 author: ""
 type: ""
-date: {{ .Date }}
+date: 2022-10-03T01:36:10+08:00
 subtitle: ""
 image: ""
 tags: []

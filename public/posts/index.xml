@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Happy Hacking</title>
+    <link>http://charlescliff.github.io/posts/</link>
+    <description>Recent content in Posts on Happy Hacking</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2022 17:04:23 +0800</lastBuildDate><atom:link href="http://charlescliff.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Posts Hugo</title>
+      <link>http://charlescliff.github.io/posts/first-posts-hugo/</link>
+      <pubDate>Sat, 01 Oct 2022 17:04:23 +0800</pubDate>
+      
+      <guid>http://charlescliff.github.io/posts/first-posts-hugo/</guid>
+      <description>Hello Hugo this is my first hugo post. Starting from now, I&amp;rsquo;m going to start my blog site with my hacking life. About myself, I&amp;rsquo;m a engineer living in China working for Flexport. I&amp;rsquo;ll share my learnings.</description>
+    </item>
+    
+  </channel>
+</rss>
