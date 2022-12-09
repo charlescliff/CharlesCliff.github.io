@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://charlescliff.github.io/categories/</loc></url><url><loc>https://charlescliff.github.io/</loc></url><url><loc>https://charlescliff.github.io/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://charlescliff.github.io/categories/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/categories/frontend/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/tags/javascript/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/post/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/tags/react/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/categories/react/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/post/react-ref-101/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/tags/react.ref/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/tags/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url><url>
+    <loc>https://charlescliff.github.io/categories/technology/</loc>
+    <lastmod>2022-10-01T22:39:33+08:00</lastmod>
+  </url>
+</urlset>
